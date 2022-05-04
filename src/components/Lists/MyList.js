@@ -22,6 +22,7 @@ const Li = memo(({ children }) => {
     console.log(`renderizando ${children}`)
     return <li>{children}</li>
 }, isEqual)
+
 const MyList = ({ data }) => {
     console.log('renderizando lista')
     return (
